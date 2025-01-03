@@ -1,0 +1,31 @@
+
+.container{
+    
+    background-color: antiquewhite;
+    padding: 5px 20px ;
+    border-radius: 8%;
+    box-shadow: 0 2px 2px 0 black;   
+    width: 40vw;
+    margin: auto; 
+    margin-bottom: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}  
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.icon{
+    margin-right: 100px;
+    transition: transform 0.5s;
+}
+.icon.active{
+    transform: rotate(-180deg);
+}
+
